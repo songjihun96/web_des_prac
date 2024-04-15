@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+.w0{
+    width: 100%;
+    height: 700px;
+    background-color: #555;
+    position: relative;
+}
+.s{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    background-color: yellow;
+    top: 0;
+}
+.e{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    background-color: orange;
+    bottom: 0;
+}
+.wrap{
+    width: 1200px;
+    height: 700px;
+    background-color: skyblue;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+.a{
+    width: 1200px;
+    height: 100px;
+    background-color: #666;
+    display: flex;
+}
+.a>.a1{
+    width: 200px;
+    height: 100px;
+    background-color: khaki;
+}
+.a>.a2{
+    width: 1000px;
+    height: 100px;
+    background-color: green;
+}
+.a>.a2>ul.m{
+    width: 800px;
+    height: 40px;
+    background-color: pink;
+    margin-top: 30px;
+    margin-left: 180px;
+    display: flex;
+}
+.a>.a2>ul.m>li{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+}
+.a>.a2>ul.m>li:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.a>.a2>ul.m>li>a{display: block;}
+.a>.a2>ul.m>li>ul.s{
+    width: 200px;
+    height: 140px;
+    background-color: hotpink;
+    z-index: 1;
+    position: relative;
+}
+.a>.a2>ul.m>li>ul.s>li{
+    width: 200px;
+    height: 35px;
+    line-height: 35px;
+}
+.a>.a2>ul.m>li>ul.s>li:hover{
+    background-color: rgba(0 , 0, 0, 0.1);
+}
+.a>.a2>ul.m>li>ul.s>li>a{display: block;}
+.b{
+    width: 1200px;
+    height: 300px;
+    background-color: #777;
+}
+.c{
+    width: 1200px;
+    height: 200px;
+    background-color: #999;
+    display: flex;
+}
+.c>.c1{
+    width: 400px;
+    height: 200px;
+    background-color: cadetblue;
+}
+.c>.c2{
+    width: 400px;
+    height: 200px;
+    background-color: palevioletred;
+}
+.c>.c3{
+    width: 400px;
+    height: 200px;
+    background-color: hotpink;
+}
+.d{
+    width: 1200px;
+    height: 100px;
+    background-color: #888;
+    display: flex;
+}
+.d>.d1{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+}
+.d>.d2{
+    width: 800px;
+    height: 100px;
+    background-color: purple;
+}
+.d>.d3{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+}

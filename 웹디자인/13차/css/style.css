@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+    color: #333;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.wrap{
+    width: 100%;
+    height: 950px;
+    background-color: #444;
+    display: flex;
+}
+.a{
+    width: 200px;
+    height: 950px;
+    background-color: #555;
+}
+.a>.a1{
+    width: 200px;
+    height: 150px;
+    background-color: #999;
+}
+.a>.a2{
+    width: 200px;
+    height: 700px;
+    background-color: #888;
+}
+.a>.a3{
+    width: 200px;
+    height: 100px;
+    background-color: #777;
+}
+.bcd{
+    width: calc(100% - 200px);
+    height: 950px;
+    background-color: #aaa;
+}
+.bcd>.b{
+    width: 100%;
+    height: 400px;
+    background-color: yellow;
+}
+.bcd>.c{
+    width: 100%;
+    height: 450px;
+    background-color: pink;
+}
+.bcd>.c>.c1{
+    width: 100%;
+    height: 200px;
+    background-color: hotpink;
+}
+.bcd>.c>.c2{
+    width: 100%;
+    height: 250px;
+    background-color: orange;
+}
+.bcd>.c>.c3{
+    width: 150px;
+    height: 300px;
+    background-color: red;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.bcd>.d{
+    width: 100%;
+    height: 100px;
+    background-color: skyblue;
+    display: flex;
+}
+.bcd>.d>.d1{
+    width: calc(100% - 300px);
+    height: 100px;
+    background-color: gold;
+}
+.bcd>.d>.d2{
+    width: 300px;
+    height: 100px;
+    background-color: green;
+}

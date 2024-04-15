@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    color: #333;
+    box-sizing: border-box;
+}
+.w0{
+    width: 100%;
+    height: 700px;
+    background-color: #ccc;
+    position: relative;
+}
+.s{
+    width: 100%;
+    height: 100px;
+    background-color: yellow;
+    position: absolute;
+    top: 0;
+}
+.e{
+    width: 100%;
+    height: 100px;
+    background-color: pink;
+    position: absolute;
+    bottom: 0;
+}
+.wrap{
+    width: 1200px;
+    height: 700px;
+    background-color: skyblue;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+.a{
+    width: 1200px;
+    height: 100px;
+    background-color: #bbb;
+    display: flex;
+}
+.a>.a1{
+    width: 200px;
+    height: 100px;
+    background-color: pink;
+}
+.a>.a2{
+    width: 1000px;
+    height: 100px;
+    background-color: skyblue;
+}
+.a>.a2>ul.m{
+    width: 800px;
+    height: 40px;
+    background-color: pink;
+    margin-top: 30px;
+    margin-left: 180px;
+    display: flex;
+}
+.a>.a2>ul.m>li{
+    width: 200px;
+    height: 160px;
+    line-height: 35px;
+}
+.a>.a2>ul.m>li:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.a>.a2>ul.m>li>a{display: block;}
+.a>.a2>ul.m>li>ul.s{
+    width: 200px;
+    height: 140px;
+    background-color: hotpink;
+    z-index: 1;
+    position: relative;
+}
+.a>.a2>ul.m>li>ul.s>li{
+    width: 200px;
+    height: 35px;
+    line-height: 35px;
+}
+.a>.a2>ul.m>li>ul.s>li:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.a>.a2>ul.m>li>ul.s>li>a{display: block;}
+.b{
+    width: 1200px;
+    height: 300px;
+    background-color: #aaa;
+}
+.c{
+    width: 1200px;
+    height: 200px;
+    background-color: #999;
+    display: flex;
+}
+.c>.c1{
+    width: 400px;
+    height: 200px;
+    background-color: red;
+}
+.c>.c2{
+    width: 400px;
+    height: 200px;
+    background-color: blue;
+}
+.c>.c3{
+    width: 400px;
+    height: 200px;
+    background-color: green;
+}
+.d{
+    width: 1200px;
+    height: 100px;
+    background-color: #888;
+    display: flex;
+}
+.d>.d1{
+    width: 200px;
+    height: 100px;
+    background-color: orange;
+}
+.d>.d2{
+    width: 1000px;
+    height: 100px;
+    background-color: yellow;
+}
+.d>.d2>.up{
+    width: 1000px;
+    height: 50px;
+    background-color: lime;
+}
+.d>.d2>.down{
+    width: 1000px;
+    height: 50px;
+    background-color: purple;
+}

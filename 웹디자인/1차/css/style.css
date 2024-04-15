@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    list-style: none;
+    color: #333;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.wrap{
+    width: 1200px;
+    height: 700px;
+    background-color: gray;
+    margin: 0 auto;
+    position: relative;
+}
+.a{
+    width: 1200px;
+    height: 100px;
+    background-color: #ccc;
+    display: flex;
+}
+.a>.a1{
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+}
+.a>.a2{
+    width: 1000px;
+    height: 100px;
+    background-color: #fff;
+}
+.a>.a2>ul.m{
+    width: 800px;
+    height: 40px;
+    background-color: pink;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 180px;
+
+}
+.a>.a2>ul.m>li{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+
+}
+.a>.a2>ul.m>li:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
+.a>.a2>ul.m>li>a{
+    display: block;
+}
+.a>.a2>ul.m>li>ul.s{
+    width: 200px;
+    height: 140px;
+    background-color: hotpink;
+    
+}
+.a>.a2>ul.m>li>ul.s>li{
+    width: 200px;
+    height: 35px;
+    line-height: 35px;
+}
+.a>.a2>ul.m>li>ul.s>li:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.a>.a2>ul.m>li>ul.s>li>a{display: block}
+.b{
+    width: 1200px;
+    height: 300px;
+    background-color: #bbb;
+}
+.c{
+    width: 1200px;
+    height: 200px;
+    background-color: #aaa;
+    display: flex;
+}
+.c>.c1{
+    width: 400px;
+    height: 200px;
+    background-color: #999;
+}
+.c>.c2{
+    width: 400px;
+    height: 200px;
+    background-color: #888;
+}
+.c>.c3{
+    width: 400px;
+    height: 200px;
+    background-color: #777;
+}
+.d{
+    width: 1200px;
+    height: 100px;
+    background-color: #666;
+    display: flex;
+}
+.d>.d1{
+    width: 200px;
+    height: 100px;
+    background-color: #555;
+}
+.d>.d2{
+    width: 800px;
+    height: 100px;
+    background-color: #444;
+}
+.d>.d3{
+    width: 200px;
+    height: 100px;
+    background-color: #222;
+}

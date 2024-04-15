@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    color: #333;
+    box-sizing: border-box;
+}
+.wrap{
+    width: 1000px;
+    height: 650px;
+    background-color: #ccc;
+    display: flex;
+}
+.a{
+    width: 200px;
+    height: 650px;
+    background-color: #bbb;
+}
+.a>.a1{
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+}
+.a>.a2{
+    width: 200px;
+    height: 550px;
+    background-color: #999;
+    padding-top: 10px;
+}
+.a>.a2>ul.m{
+    width: 180px;
+    background-color: pink;
+    margin: 0 auto;
+    position: relative;
+}
+.a>.a2>ul.m>li{
+    width: 180px;
+    background-color: pink;
+}
+.a>.a2>ul.m>li:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.a>.a2>ul.m>li>a{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+}
+.a>.a2>ul.m>li>ul.s{
+    width: 180px;
+    height: 250px;
+    background-color: hotpink;
+    position: absolute;
+    left: 180px;
+    top: -40px;
+    display: none;
+}
+.a>.a2>ul.m>li>ul.s>li{
+    width: 180px;
+    background-color: hotpink;
+}
+.a>.a2>ul.m>li>ul.s>li:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.a>.a2>ul.m>li>ul.s>li>a{
+    width: 180px;
+    height: 35px;
+    line-height: 35px;
+    display: block;
+}
+.bcd{
+    width: 800px;
+    height: 650px;
+    background-color: #aaa;
+}
+.bcd>.b{
+    width: 800px;
+    height: 350px;
+    background-color: #888;
+}
+.bcd>.c{
+    width: 800px;
+    height: 200px;
+    background-color: #777;
+    display: flex;
+}
+.bcd>.c>.c1{
+    width: 250px;
+    height: 200px;
+    background-color: red;
+}
+.bcd>.c>.c2{
+    width: 300px;
+    height: 200px;
+    background-color: green;
+}
+.bcd>.c>.c3{
+    width: 250px;
+    height: 200px;
+    background-color: blue;
+}
+.bcd>.d{
+    width: 800px;
+    height: 100px;
+    background-color: #666;
+    display: flex;
+}
+.bcd>.d>.d1{
+    width: 200px;
+    height: 100px;
+    background-color: #555;
+}
+.bcd>.d>.d2{
+    width: 600px;
+    height: 100px;
+    background-color: #444;
+}
+.bcd>.d>.d2>.up{
+    width: 600px;
+    height: 50px;
+    background-color: #222;
+}
+.bcd>.d>.d2>.down{
+    width: 600px;
+    height: 50px;
+    background-color: #111;
+}
